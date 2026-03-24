@@ -1,11 +1,16 @@
-# CRM Hospital São Rafael — Sprint 3: Recursão e Memoização no CRM
-> ## **DYNAMIC PROGRAMMING** 
-> **TURMA: 2ESPS** 
-> **ALUNOS:** 
+# Sprint 3 Hospital São Rafael: Recursão e Memoização no CRM
+> ## DYNAMIC PROGRAMMING
+> TURMA: 2ESPS
+> ALUNOS:
+
 Ana Luiza Santana RM: 561194
+
 Erick Cardoso RM: 560440
+
 Gabrielly Candido RM: 560916
+
 João Victor Ferreira RM: 560439
+
 Luiza Ribeiro RM: 560200
 ---
 
@@ -75,7 +80,7 @@ python agenda.py
 
 ---
 
-### 1 — Verificação Recursiva de Duplicidade
+### Tarefa 1 — Verificação Recursiva de Duplicidade
 **Arquivo:** `recursao.py`
 
 Quando um novo lead chega ao CRM, o sistema precisa verificar se ele já existe na base. A comparação considera quatro campos: `nome`, `telefone`, `email` e `cpf`.
@@ -112,7 +117,7 @@ enc, cadastro, campos = verificar_duplicidade_recursiva(novo_lead, cadastros_exi
 
 ---
 
-### 2 — Memoização na Comparação de Leads
+### Tarefa 2 — Memoização na Comparação de Leads
 **Arquivo:** `memoizacao.py`
 
 Em um CRM ativo, o mesmo lead pode ser consultado várias vezes — por operadores diferentes, em reentradas por outro canal ou em reprocessamentos. Esta tarefa adiciona um cache manual (`dict`) sobre a recursão da Tarefa 1: cada par *(lead × cadastro)* é comparado no máximo uma vez.
@@ -149,7 +154,7 @@ return resultado
 
 ---
 
-### 3 — Otimização de Agenda com Subproblemas
+### Tarefa 3 — Otimização de Agenda com Subproblemas
 **Arquivo:** `agenda.py`
 
 Dado o tempo disponível de um médico em um dia e os tipos de consulta possíveis, o sistema calcula o encaixe que **maximiza o tempo aproveitado** — sem recalcular os mesmos subproblemas.
