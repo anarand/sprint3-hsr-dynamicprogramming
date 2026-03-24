@@ -1,35 +1,24 @@
-# Sprint 3 Hospital São Rafael: Recursão e Memoização no CRM
-## DYNAMIC PROGRAMMING  
+# Sprint 3 Hospital São Rafael
+## DYNAMIC PROGRAMMING - Recursão e Memoização
 
-##### TURMA: 2ESPS  
-ALUNOS:  
-Ana Luiza Santana RM: 561194  
-Erick Cardoso RM: 560440  
-Gabrielly Candido RM: 560916  
-João Victor Ferreira RM: 560439  
-Luiza Ribeiro RM: 560200
+**Turma:** 2ESPS  
+
+**Alunos:**
+- Ana Luiza Santana RM: 561194  
+- Erick Cardoso RM: 560440  
+- Gabrielly Candido RM: 560916  
+- João Victor Ferreira RM: 560439  
+- Luiza Ribeiro RM: 560200
 ---
 ##  Sobre o projeto
+Este repositório contém a **Sprint 3** do Challenge do desenvolvido para o **Hospital São Rafael**
 
-Este repositório contém a **Sprint 3** do Challenge do desenvolvimento de um CRM para o **Hospital São Rafael**
 
-
-O foco desta sprint é aplicar técnicas de **programação dinâmica** para resolver dois problemas centrais do sistema:
+O foco desta sprint é aplicar técnicas de **programação dinâmica** para resolver dois problemas centrais:
 
 1. **Verificação de duplicidade** ao cadastrar novos leads/pacientes
 2. **Otimização de agenda médica** para maximizar o aproveitamento do tempo disponível
 
-
----
-
-##  Conceitos de Dynamic Programming aplicados
-
-| Conceito | Onde é usado |
-|---|---|
-| **Recursão** - Percorre a lista de cadastros comparando lead a lead
-| **Memoização manual** (`dict`) | Cache de comparações entre pares (lead × cadastro) 
-| **`@lru_cache`** - Cache automático do Python na otimização de agenda
-| **Unbounded Knapsack** - Modelo para encaixar consultas no tempo disponível 
 
 ---
 
@@ -44,10 +33,10 @@ SPRINT3-HSR-PY/
 ├── memoizacao.py    # 2 — Memoização nas comparações de leads
 ├── agenda.py        # 3 — Otimização de agenda com subproblemas
 ├── utils.py         # Funções auxiliares de exibição compartilhadas
-└── README.md
+└── README.md        # Documentação do projeto
 ```
 
-> Cada arquivo de tarefa também pode ser executado individualmente para melhor visualização.
+Cada arquivo de tarefa também pode ser executado individualmente para melhor visualização.
 
 ---
 
@@ -205,16 +194,6 @@ Sem memoização, a recursão recalcularia os mesmos subproblemas exponencialmen
 **Complexidade com memoização:**
 - Tempo: `O(T · D)` — T = tempo total em minutos, D = tipos de consulta
 - Espaço: `O(T · D)` — tamanho do cache
-
----
-
-## Conexão com o CRM Completo
-
-| Funcionalidade do CRM | Sprint relacionada |
-|---|---|
-| Restrição de Duplicidade (leads, pacientes, médicos) | Tarefas 1 e 2 |
-| Agendamento e controle de ociosidade médica | Tarefa 3 |
-| Performance de Atendimento (tempo de resposta) | Benefício indireto da memoização |
 
 ---
 
