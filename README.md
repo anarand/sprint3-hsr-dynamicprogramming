@@ -1,11 +1,11 @@
 # Sprint 3 Hospital São Rafael: Recursão e Memoização no CRM
 ## DYNAMIC PROGRAMMING
-TURMA: 2ESPS
-ALUNOS:
-Ana Luiza Santana RM: 561194
-Erick Cardoso RM: 560440
-Gabrielly Candido RM: 560916
-João Victor Ferreira RM: 560439
+TURMA: 2ESPS  
+ALUNOS:  
+Ana Luiza Santana RM: 561194  
+Erick Cardoso RM: 560440  
+Gabrielly Candido RM: 560916  
+João Victor Ferreira RM: 560439  
 Luiza Ribeiro RM: 560200
 ---
 
