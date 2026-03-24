@@ -1,5 +1,5 @@
-# Sprint 3 Hospital São Rafael: Recursão e Memoização no CRM
-## DYNAMIC PROGRAMMING  
+#Sprint 3 Hospital São Rafael: Recursão e Memoização no CRM
+##DYNAMIC PROGRAMMING  
 
 TURMA: 2ESPS  
 ALUNOS:  
@@ -9,7 +9,6 @@ Gabrielly Candido RM: 560916
 João Victor Ferreira RM: 560439  
 Luiza Ribeiro RM: 560200
 ---
-
 ##  Sobre o projeto
 
 Este repositório contém a **Sprint 3** do Challenge do desenvolvimento de um CRM para o **Hospital São Rafael**
