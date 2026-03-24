@@ -47,8 +47,8 @@ Cada arquivo de tarefa também pode ser executado individualmente para melhor vi
 
 ```bash
 # clonar o repositório
-git clone https://github.com/seu-usuario/SPRINT3-HSR-PY.git
-cd SPRINT3-HSR-PY
+git clone https://github.com/anarand/sprint3-hsr-dynamicprogramming
+cd sprint3-hsr-dynamicprogramming
 
 # executar o projeto completo
 python main.py
