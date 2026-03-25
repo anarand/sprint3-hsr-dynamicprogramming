@@ -1,6 +1,6 @@
 # Sprint 3 Hospital São Rafael
 ## DYNAMIC PROGRAMMING - Recursão e Memoização
-## Link Documentação do  Projeto:
+## Para acessar a documentação técnica, clique aqui no [link da documentação do projeto.](https://docs.google.com/document/d/12iFjDxmj4o4cLB6VeEuLOk47B1eSCFefqIFj37hK0GY/edit?usp=sharing)
 
 **Turma:** 2ESPS  
 
