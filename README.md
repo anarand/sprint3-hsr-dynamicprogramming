@@ -151,7 +151,7 @@ Dado o tempo disponível de um médico em um dia e os tipos de consulta possíve
 | Capacidade da mochila | Tempo disponível (minutos) |
 | Itens disponíveis | Tipos de consulta |
 | Valor de cada item | Própria duração em minutos |
-| Repetição de itens | ✅ Sim — o mesmo tipo pode repetir |
+| Repetição de itens | ✅ Sim, o mesmo tipo pode repetir |
 | Objetivo | Maximizar minutos aproveitados |
 
 **Recorrência:**
